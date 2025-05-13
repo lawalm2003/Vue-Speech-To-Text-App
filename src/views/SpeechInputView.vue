@@ -47,7 +47,7 @@ const SpeechRecognition =
   window.SpeechRecognition || window.webkitSpeechRecognition ;
 
 const isRecording = ref<boolean>(false);
-const transcript = ref<string>('dfcxg');
+const transcript = ref<string>('');
 const toSave = ref<boolean>(false);
 const hasSaved = ref<boolean>(false);
 

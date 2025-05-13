@@ -2,7 +2,7 @@
   <main>
     <div class="flex flex-col justify-center items-center pt-20">
       <img src="../assets/homeimg.png" alt="Home image" class="max-h-100 mb-10">
-      <h1 class="text-2xl font-bold mb-6">Welcome to Speech2TextConverter</h1>
+      <h1 class="text-2xl font-bold text-center mb-6">Welcome to Speech2TextConverter</h1>
       <p class="max-w-[790px] text-center mb-6">
         Easily convert your speech into text with our state-of-the-art service.
         get accurate transcriptions in seconds with our user-friendly interface
