@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.6",
+    "@vercel/speed-insights": "^1.2.0",
     "docx": "^9.5.0",
     "jspdf": "^3.0.1",
     "pinia": "^3.0.1",
