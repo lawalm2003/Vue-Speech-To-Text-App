@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-dim-gray: #454545;
+  --color-white-smoke: #f6f6f6;
+}
+
+.btn {
+  @apply bg-black text-white text-xs px-3 py-2.5 rounded-xl cursor-pointer;
+}
+
+.animation {
+  @apply transition-all duration-300;
+}
