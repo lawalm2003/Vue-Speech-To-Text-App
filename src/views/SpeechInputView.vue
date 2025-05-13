@@ -44,10 +44,10 @@ import { Packer, Document, Paragraph } from 'docx';
 import jsPDF from 'jspdf';
 
 const SpeechRecognition =
-  window.SpeechRecognition || window.webkitSpeechRecognition;
+  window.SpeechRecognition || window.webkitSpeechRecognition ;
 
 const isRecording = ref<boolean>(false);
-const transcript = ref<string>('');
+const transcript = ref<string>('dfcxg');
 const toSave = ref<boolean>(false);
 const hasSaved = ref<boolean>(false);
 
@@ -67,7 +67,7 @@ onMounted(() => {
     isRecording.value = false;
   };
 
-  recognition.onresult = (evt: SpeechRecognitionEvent) => {
+  recognition.onresult = (evt: any) => {
     const result = evt.results[evt.resultIndex];
     if (result && result[0]) {
       transcript.value = result[0].transcript; // Update transcript with recognized speech
